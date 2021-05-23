@@ -16,7 +16,17 @@ Create all resources in the us-east1 region and us-east1-b zone, unless otherwis
 Use the project VPCs.
 Naming is normally team-resource, e.g. an instance could be named kraken-webserver1
 Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use f1-micro for small Linux VMs and n1-standard-1 for Windows or other applications such as Kubernetes nodes.
-Solving tasks
+
+# Solving tasks
+
+
+
+
+
+
+
+
+
 Task 1: Create a bucket
 Navigation menu > STORAGE > Storage > Create Bucket
 Name your bucket > Enter GCP Project ID > Continue
