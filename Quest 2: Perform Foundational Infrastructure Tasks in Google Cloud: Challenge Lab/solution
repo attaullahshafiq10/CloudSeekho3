@@ -33,9 +33,13 @@ Name your bucket > Enter GCP Project ID > Continue
 Choose where to store your data > Region: us-east1 > Continue
 Use default for the remaining
 Create
+
+
 Task 2: Create a Pub/Sub topic
 Navigation menu > BIG DATA > Pub/Sub
 Create Topic > Name: Jooli > Create Topic
+
+
 Task 3: Create the thumbnail Cloud Function
 Navigation menu > COMPUTE > Cloud Functions > Create Function
 
@@ -54,6 +58,8 @@ Download the image from URL
 Navigation menu > STORAGE > Storage > Select your bucket > Upload files
 
 Refresh bucket
+
+
 
 Task 4: Remove the previous cloud engineer
 Navigation menu > IAM & Admin
