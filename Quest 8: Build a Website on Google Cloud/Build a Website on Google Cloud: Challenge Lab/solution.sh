@@ -64,3 +64,11 @@ Task 6: Create a containerized version of the Frontend microservice
 
 cd ~/monolith-to-microservices/microservices/src/frontend
 gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/frontend:1.0.0 .
+
+
+
+###########
+Task 7:
+kubectl create deployment frontend --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/frontend:1.0.0
+
+kubectl expose deployment frontend --type=LoadBalancer --port 80 --target-port 8080
